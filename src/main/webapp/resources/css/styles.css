@@ -1,0 +1,119 @@
+body {
+	background-color: #5692ff;
+}
+
+.main {
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	min-width: 15%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.content {
+	width: 100%;
+
+	background-color: #FFC19E;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	height:auto;
+	overflow:hidden;
+    zoom:1;
+}
+
+h1 {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+		AppleGothic, sans-serif;
+	font-weight: 100;
+	letter-spacing: 50px;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+		AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+#resp {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+		AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+input[type=text] {
+	width: 35%;
+	height: 30px;
+	font-size: 15px;
+}
+
+input.edit {
+	width: 175px;
+	height: auto;
+	text-align: center;
+}
+
+table#contentList {
+	margin: auto;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+		AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+table#contentList td {
+	width: 175px;
+}
+
+table#urlList {
+	width: 80%;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+		AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	text-align: left;
+	margin: auto;
+	margin-top: 50px;
+	border-collapse: collapse; 
+	border: thin solid #d99684;
+}
+
+table#urlList tr td{
+	border-bottom: thin solid #d99684;
+	padding-bottom:8px;
+	padding-top:8px;
+}
+table#urlList tr th{
+	border-bottom: thin solid #d99684;
+	padding-bottom:8px;
+	padding-top:8px;
+}
+
+#button {
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	border: thin solid #5692ff;
+}
